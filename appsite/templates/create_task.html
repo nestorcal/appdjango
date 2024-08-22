@@ -9,7 +9,7 @@
                 </div>
                 {{ error }}
                 <div>
-                    <form action="/tasks/create" method="POST" class="card card-body">
+                    <form action="/tasks/create/" method="POST" class="card card-body">
                         {% csrf_token %}
                         {{ form.as_p }}
 
